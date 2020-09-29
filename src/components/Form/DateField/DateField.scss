@@ -1,0 +1,56 @@
+.DateField {
+  .react-datepicker {
+    display: flex;
+  }
+
+  .react-datepicker__day--selected, 
+  .react-datepicker__day--keyboard-selected {
+    &:hover {
+      background-color: #039BE5;
+    }
+
+    background-color: #039BE5;
+  }
+
+  .react-datepicker__time-container {
+
+    .react-datepicker__time {
+
+      .react-datepicker__time-box {
+
+        ul.react-datepicker__time-list {
+
+          li.react-datepicker__time-list-item {
+            height: 45px;
+          }
+
+          .react-datepicker__time-list-item--selected {
+            &:hover {
+              background-color: #039BE5;
+            }
+
+            background-color: #039BE5;
+          }
+        }
+      }
+    }
+  }
+}
+
+.DateField-Label{
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.DateField-Input {
+  &.form-control {
+    font-size: 14px;
+    border-radius: 3px;
+    height: 35px;
+  }
+
+  &::placeholder {
+    color: #898989;
+  }
+}

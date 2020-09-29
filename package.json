@@ -1,0 +1,54 @@
+{
+  "name": "list",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.5.2",
+    "classnames": "^2.2.6",
+    "connected-react-router": "^6.8.0",
+    "history": "^5.0.0",
+    "immutable": "^4.0.0-rc.12",
+    "key-mirror": "^1.0.1",
+    "moment": "^2.29.0",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-bootstrap-table-next": "^4.0.3",
+    "react-datepicker": "^3.2.2",
+    "react-dom": "^16.13.1",
+    "react-moment": "^1.0.0",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "reactstrap": "^8.6.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "superagent": "^6.1.0",
+    "underscore": "^1.11.0",
+    "url-pattern": "^1.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

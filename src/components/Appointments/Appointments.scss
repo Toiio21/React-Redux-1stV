@@ -1,0 +1,41 @@
+.Appointments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Appointments-HeaderBody {
+  max-width: 1300px;
+}
+
+.Appointments-Body {
+  flex: 1;
+  max-width: 1300px;
+  min-width: 700px;
+}
+
+.Appointments-Filter {
+  margin-top: 40px;
+}
+
+.Appointments-FilterForm {
+  display: flex;
+  justify-content: row;
+}
+
+.Appointments-FilterField {
+  margin-left: 12px;
+}
+
+.Appointments-SearchBtn {
+  height: 35px;
+  margin-left: 12px;
+  line-height: 1;
+  background-color: #039BE5
+}
+
+.Appointments-SearchBtnIcon {
+  height: 20px;
+  width: 20px;
+  fill: white;
+}
